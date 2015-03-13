@@ -62,30 +62,6 @@ body {
 	margin-top: 0%;
 }
 
-#contenidoIndex {
-	position: relative;
-	z-index: 1;
-}
-
-#contenido {
-	height: 500px;
-	position: relative;
-	z-index: 1;
-}
-
-#contenidoHome {
-	height: 400px;
-	position: relative;
-	z-index: 1;
-}
-
-#contenidosinFondo {
-	/* height: 950px;*/
-	height: 507px;
-	position: relative;
-	z-index: 1;
-}
-
 #logo {
 	text-align: left;
 }
@@ -94,8 +70,7 @@ body {
 	text-align: left;
 	position: relative;
 	z-index: 2;
-	background-image:
-		url(file:///C|/Documents%20and%20Settings/Marce/Escritorio/peope/websiteEspacio4arq_v5/images/fondoTop.jpg)
+	background-image:url(../images/fondoTop.jpg);
 }
 
 #arquitectura {
@@ -152,306 +127,13 @@ body {
 	display: inline;
 }
 
-#contenidoInterno {
-	color: #FFFFFF;
-	height: 423px;
-	position: relative;
-	width: 950px;
-	z-index: 1;
-	background-image: url(images/13.jpg);
-	background-repeat: no-repeat;
-}
-
-#contenidoInterno img {
-	float: left;
-	margin-left: 15px;
-	margin-top: 40px;
-	position: absolute;
-	z-index: -1;
-}
-
-.contenidoInternoTurqueza {
-	background-color: #49A6DC;
-	color: #FFFFFF;
-	height: 423px;
-	opacity: 0.87;
-	position: relative;
-	top: -442px;
-	visibility: visible;
-	width: 396px;
-	z-index: 1;
-	/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-	filter: alpha(opacity = 87); /* internet explorer */
-	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-	opacity: 0.87; /* safari, chrome, opera */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-	/*internet explorer 8*/
-}
-
-.contenidoInternoAmarillo {
-	background-color: #92278F;
-	color: #FFFFFF;
-	height: 423px;
-	opacity: 0.87;
-	position: relative;
-	top: -442px;
-	visibility: visible;
-	width: 396px;
-	z-index: 1;
-	/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-	filter: alpha(opacity = 87); /* internet explorer */
-	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-	opacity: 0.87; /* safari, chrome, opera */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-	/*internet explorer 8*/
-}
-
-.contenidoInternoRosa {
-	background-color: #EE3672;
-	color: #FFFFFF;
-	height: 423px;
-	opacity: 0.87;
-	position: relative;
-	top: -442px;
-	visibility: visible;
-	width: 396px;
-	z-index: 1;
-	/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-	filter: alpha(opacity = 87); /* internet explorer */
-	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-	opacity: 0.87; /* safari, chrome, opera */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-	/*internet explorer 8*/
-}
-
-.contenidoInternoCeleste {
-	background-color: #6AC6AE;
-	color: #FFFFFF;
-	height: 423px;
-	opacity: 0.87;
-	position: relative;
-	top: -442px;
-	visibility: visible;
-	width: 396px;
-	z-index: 1;
-	/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-	filter: alpha(opacity = 87); /* internet explorer */
-	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-	opacity: 0.87; /* safari, chrome, opera */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-	/*internet explorer 8*/
-}
-
-.contenidoInternoVerde {
-	background-color: #8DC640;
-	color: #FFFFFF;
-	height: 423px;
-	position: relative;
-	top: 49px;
-	width: 100%;
-	z-index: 1;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInterno {
-		background-color: #F1592B;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoTurqueza {
-		background-color: #49A6DC;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoAmarillo {
-		background-color: #92278F;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoRosa {
-		background-color: #EE3672;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoCeleste {
-		background-color: #6AC6AE;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoVerde {
-		background-color: #8DC640;
-		color: #FFFFFF;
-		height: 423px;
-		position: relative;
-		top: 49px;
-		width: 100%;
-		z-index: 1;
-	}
-}
-
-.titulo {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	color: #FFFFFF;
-	/*float: left;*/
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 26px;
-	margin-bottom: 15px;
-	margin-left: 40px;
-	padding-bottom: 15px;
-	padding-top: 11%;
-	width: 320px;
-	_border-bottom: 5px solid #FFF;
-	*border-bottom: 5px solid #FFF;
-}
-
-.tituloContacto {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 26px;
-	margin-left: 40px;
-	padding-bottom: 15px;
-	padding-top: 7%;
-	width: 710px;
-	float: left;
-}
-
-.descripcion {
-	margin-left: 31px;
-	width: 320px;
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 12px;
-}
-
-.descripcion ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0 0 0 0.8em;
-}
-
-.descripcion ul li {
-	background-image: url("../images/bullets.png");
-	background-position: 0 -0.1em;
-	background-repeat: no-repeat;
-	padding-bottom: 0.2em;
-	padding-left: 1.1em;
-}
-
-.descripcionComo {
-	margin-left: 39px;
-	width: 320px;
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 12px;
-	text-align: justify;
-}
-
-.resaltadoGris {
-	color: #4D4B4C;
-}
-
 /*---------------------------------------pie---------------------------------*/
 #pie {
 	font-family: Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 11px;
 	position: relative;
 	bottom: 0 !important;
-	bottom: -1px; /*
-	   clear: both;
-		    position: relative;
-			z-index: 4;
-			/*float:left;*/
+	bottom: -1px;
 }
 
 #pie li {
@@ -486,227 +168,6 @@ body {
 .pieDer {
 	float: right;
 	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-}
-
-#pieHome {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	margin-top: 60px;
-	position: relative;
-	bottom: 0 !important;
-	bottom: -1px; /*
-	   clear: both;
-		    position: relative;
-			z-index: 4;
-			/*float:left;*/
-}
-
-#pieHome li {
-	display: inline;
-	padding-right: 10px;
-	vertical-align: top;
-}
-
-#pieHome li a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	text-decoration: none;
-	color: #4D4B4C;
-}
-
-#pieHome li a:hover {
-	color: #b02e34;
-}
-
-#piePorfolio {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	position: relative;
-	bottom: 0 !important;
-	bottom: -1px;
-	margin-top: -7px; /*
-	   clear: both;
-		    position: relative;
-			z-index: 4;
-			/*float:left;*/
-}
-
-#piePorfolio li {
-	display: inline;
-	padding-right: 10px;
-	vertical-align: top;
-}
-
-#piePorfolio li a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	text-decoration: none;
-	color: #4D4B4C;
-}
-
-#piePorfolio li a:hover {
-	color: #b02e34;
-}
-
-#pieQuienes {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	position: relative;
-	bottom: 0 !important;
-	bottom: -1px;
-	margin-top: -7px;
-	z-index: 5; /*
-	   clear: both;
-		    position: relative;
-			z-index: 4;
-			/*float:left;*/
-}
-
-#pieQuienes li {
-	display: inline;
-	padding-right: 10px;
-	vertical-align: top;
-}
-
-#pieQuienes li a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	text-decoration: none;
-	color: #4D4B4C;
-}
-
-#pieQuienes li a:hover {
-	color: #b02e34;
-}
-
-/*--------------------------------------------------quienes-----------------------------------------*/
-.descripcionQuienes {
-	margin-left: 40px;
-}
-
-.contenidoInternoQuienes {
-	background-color: #6AC6AE;
-	color: #FFFFFF;
-	height: 423px;
-	position: relative;
-	top: 49px;
-	width: 100%;
-	z-index: 1;
-}
-
-.tituloquienes {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 26px;
-	margin-left: 40px;
-	padding-bottom: 15px;
-	padding-top: 12%;
-	width: 710px;
-	float: left;
-}
-
-#quienesFoto {
-	float: right;
-	margin-right: 42px;
-	margin-top: -160px;
-}
-
-.columnaInz {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 12px;
-	float: left;
-	width: 210px;
-	height: 200px;
-}
-
-.columnaInz a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	float: right;
-	color: #FFF;
-	text-decoration: none;
-}
-
-.columnaInz a:hover {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	float: right;
-	color: #FFF;
-	text-decoration: none;
-}
-
-.columnaInz img {
-	padding-right: 5px;
-	border-bottom: 0;
-	border-left: 0;
-	border-right: 0;
-	border-top: 0;
-}
-
-.columna {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 12px;
-	margin-left: 45px;
-	width: 210px;
-	float: left;
-	height: 200px;
-}
-
-.columna a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	float: right;
-	color: #FFF;
-	text-decoration: none;
-}
-
-.columna a:hover {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	float: right;
-	color: #FFF;
-	text-decoration: none;
-}
-
-.columna img {
-	padding-right: 5px;
-	border-bottom: 0;
-	border-left: 0;
-	border-right: 0;
-	border-top: 0;
-}
-
-.columnaDer {
-	float: right;
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 12px;
-	margin-right: 40px;
-	width: 210px;
-	height: 200px;
-}
-
-.columnaDer a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	float: right;
-	color: #FFF;
-	text-decoration: none;
-}
-
-.columnaDer a:hover {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
-	font-size: 11px;
-	float: right;
-	color: #FFF;
-	text-decoration: none;
-}
-
-.columnaDer img {
-	padding-right: 5px;
-	border-bottom: 0;
-	border-left: 0;
-	border-right: 0;
-	border-top: 0;
 }
 
 .resaltado {
@@ -929,4 +390,34 @@ textarea {
 	background-image: url(../images/fondoTopPrincipal.jpg);
 	background-color:#FFF;
 	background-repeat:repeat-x;
+}
+
+#pieHome {
+	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-size: 11px;
+	margin-top: 60px;
+	position: relative;
+	bottom: 0 !important;
+	bottom: -1px; /*
+	   clear: both;
+		    position: relative;
+			z-index: 4;
+			/*float:left;*/
+}
+
+#pieHome li {
+	display: inline;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+#pieHome li a {
+	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #4D4B4C;
+}
+
+#pieHome li a:hover {
+	color: #b02e34;
 }
