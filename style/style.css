@@ -421,3 +421,8 @@ textarea {
 #pieHome li a:hover {
 	color: #b02e34;
 }
+
+#menu-mobile,
+#logo-mobile {
+	display: none;
+}
