@@ -116,8 +116,11 @@ body {
 	position: relative;
 	z-index: 3;
 	padding: 0px;
-	width: 900px;
+	width: 100%;
 	margin: 0 auto;
+	float: none;
+	clear: both;
+	margin-top: 30px;
 }
 
 #submenuImg li {
@@ -391,6 +394,9 @@ textarea {
 	background-image: url(../images/fondoTopPrincipal.jpg);
 	background-color:#FFF;
 	background-repeat:repeat-x;
+	background-position: 0 -8px;
+	margin: 0px;
+	padding: 0px;
 }
 
 #pieHome {
@@ -436,3 +442,11 @@ textarea {
   display:none;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.slidesjs-control {
+	z-index: 0;
+}

@@ -1,7 +1,7 @@
 $(function() {
 	$("#slides").slidesjs({
 		width : 900,
-		height : 400,
+		height : 350,
 		navigation : false,
 		pagination : {
 			active : true,
