@@ -14,7 +14,28 @@ $(function() {
 			auto : true
 		}
 	});
+	
+	inicializarSliderPequenio("submenuImg-empresa");
+	inicializarSliderPequenio("submenuImg-produccion");
+	inicializarSliderPequenio("submenuImg-producto");
+	inicializarSliderPequenio("submenuImg-servicios");
+
 });
+
+
+function inicializarSliderPequenio(id) {
+	
+	$("#" + id).slidesjs({
+		width : 241,
+		height : 231,
+		navigation : false,
+		pagination : false,
+		play : {
+			auto : true,
+			effect: "fade"
+		}
+	});
+}
 
 
 function MM_swapImgRestore() { // v3.0

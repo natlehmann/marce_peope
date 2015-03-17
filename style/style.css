@@ -438,7 +438,11 @@ textarea {
 	margin-top: 40px;
 }
 
-#slides {
+#slides,
+#submenuImg-empresa,
+#submenuImg-produccion,
+#submenuImg-producto,
+#submenuImg-servicios {
   display:none;
 }
 
@@ -449,4 +453,9 @@ html {
 
 .slidesjs-control {
 	z-index: 0;
+}
+
+.submenuImg-item {
+	width: 25%;
+	float: left;
 }
