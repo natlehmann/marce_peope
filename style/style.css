@@ -432,3 +432,7 @@ textarea {
 	margin-top: 40px;
 }
 
+#slides {
+  display:none;
+}
+

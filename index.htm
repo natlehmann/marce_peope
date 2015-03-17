@@ -3,7 +3,8 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
-	<link rel="stylesheet" type="text/css" href="style/jssor.css" />
+	<link rel="stylesheet" type="text/css" href="style/jquery-slides.css" />
+	<link rel="stylesheet" type="text/css" href="style/font-awesome.min.css" />
 	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 568px)" />
 	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 792px) and (orientation : portrait)" />
 
@@ -13,7 +14,7 @@
 	<title>peope</title>
 	
 	<script src="js/jquery-1.9.1.min.js"></script>
-	<script src="js/jssor.slider.mini.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
 	<script src="js/master.js"></script>
 	
 </head>
@@ -98,31 +99,15 @@
 
 
 		<div id="contenidoHome">
-			<div id="slider_container" style="width: 900px; height: 400px;">
+			<div id="slides">
 			
-				<!-- Loading Screen -->
-		        <div u="loading" id="slide_loading_container">
-		            <div class="fondo"></div>
-		            <div class="pantalla"></div>
-		        </div>
-			
-				<!-- Slides Container -->
-        		<div u="slides" id="all_slides" style="width: 900px; height: 400px;">
-					<div><img u="image" src="images/fotosGaleria/01.jpg" alt="Slide 1" /></div>
-					<div><img u="image" src="images/fotosGaleria/02.jpg" alt="Slide 2" /> </div>
-					<div><img u="image" src="images/fotosGaleria/03.jpg" alt="Slide 3" /> </div>
-					<div><img u="image" src="images/fotosGaleria/04.jpg" alt="Slide 4" /></div>
-				</div>
-			
-				<!-- Bullet Navigator -->
-		        <div u="navigator" class="jssorb05">
-		            <div u="prototype" style="WIDTH: 16px; HEIGHT: 16px;" id="bullet_prototype"></div>
-		        </div>
-
-		        <!-- Arrow Left -->
-		        <span u="arrowleft" class="jssora12l"></span>
-		        <!-- Arrow Right -->
-		        <span u="arrowright" class="jssora12r"></span>
+				<img src="images/fotosGaleria/01.jpg" alt="Slide 1" />
+				<img src="images/fotosGaleria/02.jpg" alt="Slide 2" />
+				<img src="images/fotosGaleria/03.jpg" alt="Slide 3" /> 
+				<img src="images/fotosGaleria/04.jpg" alt="Slide 4" />
+				
+				<a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      			<a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
 
 		    </div>
 		</div>
