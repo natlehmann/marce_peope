@@ -170,3 +170,7 @@
 .galeria {
 	padding: 5%;
 }
+
+#header-contacto {
+	display: none;
+}
