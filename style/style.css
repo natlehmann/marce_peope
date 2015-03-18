@@ -442,7 +442,8 @@ textarea {
 #submenuImg-empresa,
 #submenuImg-produccion,
 #submenuImg-producto,
-#submenuImg-servicios {
+#submenuImg-servicios,
+#header-mobile {
   display:none;
 }
 

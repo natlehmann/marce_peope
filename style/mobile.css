@@ -7,7 +7,8 @@
 }
 
 #menu-mobile,
-#logo-mobile {
+#logo-mobile,
+#header-mobile {
 	display: block;
 }
 
@@ -63,4 +64,83 @@
     padding-right: 35%;
     padding-top: 7px;
     padding-bottom: 5px;
+}
+
+.sinLogo #logoInt {
+	display: none;
+}
+
+#header-mobile {
+	position: relative;
+}
+
+.header-mobile-texto-container {
+	width: 80%;
+	margin: 0 auto;
+	height: 70px;
+	display: flex;
+}
+
+.header-mobile-izq {
+	background-image: url(../images/botMobileIzquierda.jpg);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 27px;
+	display: table-cell;
+	float:left;
+}
+
+.header-mobile-centro {
+	background-image: url(../images/botMobileCentro.jpg);
+	background-repeat: repeat-x;
+	height: 70px;
+	width: 100%;
+	display: table-cell;
+	float:left;
+	text-align: left;
+	color: white;
+	font-family: Myriad,helvetica,verdana,arial,sans-serif;
+	font-size: 22px;
+	padding-top: 13px;
+	padding-left: 13px;
+}
+
+.header-mobile-der {
+	background-image: url(../images/botMobileDerecha.jpg);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 27px;
+	display: table-cell;
+	float:left;
+}
+
+.header-mobile-close {
+	width: 8%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	font-size: 25px;
+	padding-right: 3%;
+}
+
+.header-mobile-close a,
+.header-mobile-close a:visited,
+.header-mobile-close a:link,
+.header-mobile-close a:active,
+.header-mobile-close a:hover {
+	color: black;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.contenido-empresa .imagen img {
+	width: 100%;
+	height: auto;
+}
+
+.contenido-empresa .texto {
+	padding: 5%;
+	height: 300px;
+	overflow-y: scroll; 
 }
