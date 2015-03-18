@@ -1,103 +1,227 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es-es">
+
 <head>
-        <link rel="stylesheet" type="text/css" href="style/style.css" /> 
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/jquery-slides.css" />
+	<link rel="stylesheet" type="text/css" href="style/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="style/jquery.jscrollpane.css" />
+	<link rel="stylesheet" type="text/css" href="style/lightbox.css" />
+	<link rel="stylesheet" type="text/css" href="style/prettyPhoto.css" />
+	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 568px)" />
+	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 792px) and (orientation : portrait)" />
 
-    <title>peope</title>
-    <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<title>peope</title>
+	
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/JavaScript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/JavaScript" src="js/jquery.jscrollpane.min.js"></script>
+	<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/JavaScript" src="js/mwheelIntent.js"></script>
+	<script type="text/JavaScript" src="js/modernizr.custom.js"></script>
+	<script src="js/master.js"></script>
+	<script src="js/galeria.js"></script>
+	
+</head>
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <style type="text/css">
-    body {
-	background-image: url(images/fondoTopPrincipal.jpg);
-	background-color:#FFF;
-	background-repeat:repeat-x;
-}
-    </style>
-    </head>
-    <body onload="MM_preloadImages('images/botEmpresaOn.jpg','images/botProduccionOn.jpg','images/botProductosOn.jpg','images/botContactoOn.jpg','images/imgEmpresa.jpg','images/imgProduccion.jpg','images/imgProducto.jpg','images/imgServicios.jpg','images/linkedinOn.jpg','images/facebookOn.jpg')">
-<div id="contenedor">
-                   <div id="logoInt"><a href="index.htm"><img src="images/logo.jpg" alt="" width="301" height="135" border="0" /></a></div>	                
-     <div id="menu">
-                   <ul class="mi-menu">
-                   	<li><a href="que.htm"></a><a href="index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('empresa','','images/botEmpresaOn.jpg',1)"><img src="images/botEmpresa.jpg" width="137" height="84" border="0" id="empresa" /></a></li>
-                    <li><a href="quienes.htm"></a><a href="produccion.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('produccion','','images/botProduccionOn.jpg',1)"><img src="images/botProduccion.jpg" width="115" height="84" border="0" id="produccion" /></a>
-                    <ul>
-                          <li><a href="consultoria.htm">Metalúrgica</a></li>
-                          <li><a href="space.htm">Pintura</a></li>
-                          <li><a href="imagen.htm">Madera</a></li>
-                          <li><a href="proyecto.htm">Plástico</a></li>
-                          <li><a href="gerenciamiento.htm">Impresión</a></li>
-                         <li><a href="gerenciamiento.htm">Corte</a></li>
-                      </ul>
-                    
-                    </li>
-                    <li><a href="como.htm"></a><a href="productos.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('productos','','images/botProductosOn.jpg',1)"><img src="images/botProductos.jpg" width="109" height="84" border="0" id="productos" /></a>
-                    <ul>
-                          <li><a href="consultoria.htm">On premise</a></li>
-                          <li><a href="space.htm">Off premise</a></li>
-                          <li><a href="imagen.htm">Gifts &amp; Parts</a></li>
-                          
-                         
-                      </ul>
-                    </li>
-                    <li><a href="#"></a><a href="servicios.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('servicios','','images/botServiciosOn.jpg',0)"><img src="images/botServicios.jpg" width="96" height="84" border="0" id="servicios" /></a>
-                        <ul>
-                          <li><a href="consultoria.htm">Diseño y desarrollo 
-  </a></li>
-                          <li><a href="space.htm">Fabricación prod. a fazon</a></li>
-                          <li><a href="imagen.htm">Armado y Copackers</a></li>
-                          <li><a href="proyecto.htm">Logística</a></li>
-                          <li><a href="gerenciamiento.htm">Inst. y Mant. en PDV</a></li>
-                         
-                      </ul>
-                    
-                    </li>
-                    <li><a href="contacto.htm"></a><a href="contacto.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('contacto','','images/botContactoOn.jpg',1)"><img src="images/botContacto.jpg" width="150" height="84" border="0" id="contacto" /></a></li>
-</ul></div> 
-                   <div id="contenidoHome">
-                           
-                   </div>
-                   
-                   
-                           
-                           
-                   
-                        </ul>
-                   </div>
-                   <div>
+<body class="peope sinLogo" id="peope-web">
+	<div id="contenedor">
 
-                    
-  <div id="pieHome">
-                      <div class="pieIzq"><li><strong><font color="#b02e34">Peope SRL</font></strong> Saladillo 3351 (1439) CABA Agentina  <font color="#b02e34"  size="+1"> . </font>   tel/fax  54 11 46 87 74 00     <font color="#b02e34" size="+1"><strong>.</strong></font>    mail <a href="mailto:ventas@peope.com.ar" target="_blank">ventas@peope.com.ar</a><br />Copyright 2014 Espacio4arq. All rights reserved.</li>
-                     </div>
-                      <div class="pieDer"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('linkedin','','images/linkedinOn.jpg',1)"><img src="images/linkedin.jpg" width="45" height="43" border="0" id="linkedin" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('facebook','','images/facebookOn.jpg',1)"><img src="images/facebook.jpg" width="45" height="43" border="0" id="facebook" /></a></div>
-           </div>
-                   
-                           
-    </div>
-    <script src="slideShow.js"></script>
-      
+		<div id="logoInt">
+			<a href="index.htm">
+				<img id="logo-desktop" src="images/logo.jpg" alt="" width="301" height="135" />
+				<img id="logo-mobile" src="images/logoSinLinea.jpg" alt="" width="301" height="135" />
+			</a>
+		</div>
+
+		<div id="menu">
+			<ul class="mi-menu">
+				<li><a href="empresa.htm" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('empresa','','images/botEmpresaOn.jpg',1)"><img
+						src="images/botEmpresa.jpg" width="137" height="84" border="0"
+						id="empresa" /></a></li>
+				<li><a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('produccion','','images/botProduccionOn.jpg',1)"><img
+						src="images/botProduccion.jpg" width="115" height="84" border="0"
+						id="produccion" /></a>
+					<ul>
+						<li><a href="produccion_metalurgica.htm">Metalúrgica</a></li>
+						<li><a href="produccion_pintura.htm">Pintura</a></li>
+						<li><a href="produccion_madera.htm">Madera</a></li>
+						<li><a href="produccion_plastico.htm">Plástico</a></li>
+						<li><a href="produccion_impresion.htm">Impresión</a></li>
+						<li><a href="produccion_corte.htm">Corte</a></li>
+					</ul></li>
+				<li><a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('productos','','images/botProductosOn.jpg',1)"><img
+						src="images/botProductos.jpg" width="109" height="84" border="0"
+						id="productos" /></a>
+					<ul>
+						<li><a href="productos_on_premise.htm">On premise</a></li>
+						<li><a href="productos_off_premise.htm">Off premise</a></li>
+						<li><a href="productos_gifts.htm">Gifts &amp; Parts</a></li>
+
+
+					</ul></li>
+				<li><a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('servicios','','images/botServiciosOn.jpg',0)"><img
+						src="images/botServicios.jpg" width="96" height="84" border="0"
+						id="servicios" /></a>
+					<ul>
+						<li><a href="servicios_disenio.htm">Diseño y desarrollo </a></li>
+						<li><a href="servicios_fazon.htm">Fabricación prod. a
+								fazon</a></li>
+						<li><a href="servicios_armado.htm">Armado y Copackers</a></li>
+						<li><a href="servicios_logistica.htm">Logística</a></li>
+						<li><a href="servicios_pdv.htm">Inst. y Mant. en PDV</a></li>
+
+					</ul></li>
+				<li><a href="contacto.htm" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('contacto','','images/botContactoOn.jpg',1)"><img
+						src="images/botContacto.jpg" width="150" height="84" border="0"
+						id="contacto" /></a></li>
+			</ul>
+		</div>
+		
+		<!-- FIN CONTENIDOS COMUNES -->
+		
+		<div id="header-mobile">
+			<div class="header-mobile-texto-container">
+				<div class="header-mobile-izq"></div>
+				<div class="header-mobile-centro">PRODUCCIÓN</div>
+				<div class="header-mobile-der"></div>
+			</div>
+			<div class="header-mobile-close">
+				<a href="produccion.htm">X</a>
+			</div>
+		</div>
+
+
+		<div class="galeria">		
+			<div id="scroll">
+
+				<div id="imgCliente_0" onclick="showLightbox(0)" class="galeria-item">
+					<img src="images/fotosGaleria/01.jpg"/>
+					Trabajo 1
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/01.jpg,images/fotosGaleria/02.jpg,images/fotosGaleria/03.jpg"/>
+					
+					<input type="hidden"
+							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
+					<input type="hidden"
+							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
+							name="descripcionImagenes"/>
+				</div>
+				
+				<div id="imgCliente_1" onclick="showLightbox(1)" class="galeria-item">
+					<img src="images/fotosGaleria/04.jpg"/>
+					Trabajo 1
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/04.jpg,images/fotosGaleria/05.jpg,images/fotosGaleria/06.jpg"/>
+					
+					<input type="hidden"
+							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
+					<input type="hidden"
+							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
+							name="descripcionImagenes"/>
+				</div>
+				
+				<div id="imgCliente_2" onclick="showLightbox(2)" class="galeria-item">
+					<img src="images/fotosGaleria/07.jpg"/>
+					Trabajo 1
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/07.jpg,images/fotosGaleria/08.jpg,images/fotosGaleria/09.jpg"/>
+					
+					<input type="hidden"
+							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
+					<input type="hidden"
+							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
+							name="descripcionImagenes"/>
+				</div>
+				
+				<div id="imgCliente_3" onclick="showLightbox(3)" class="galeria-item">
+					<img src="images/fotosGaleria/10.jpg"/>
+					Trabajo 1
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/10.jpg,images/fotosGaleria/11.jpg,images/fotosGaleria/12.jpg"/>
+					
+					<input type="hidden"
+							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
+					<input type="hidden"
+							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
+							name="descripcionImagenes"/>
+				</div>
+				
+				<div id="imgCliente_4" onclick="showLightbox(4)" class="galeria-item">
+					<img src="images/fotosGaleria/13.jpg"/>
+					Trabajo 1
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/13.jpg,images/fotosGaleria/14.jpg,images/fotosGaleria/15.jpg"/>
+					
+					<input type="hidden"
+							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
+					<input type="hidden"
+							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
+							name="descripcionImagenes"/>
+				</div>
+				
+				<div id="imgCliente_5" onclick="showLightbox(5)" class="galeria-item">
+					<img src="images/fotosGaleria/16.jpg"/>
+					Trabajo 1
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/16.jpg,images/fotosGaleria/17.jpg,images/fotosGaleria/18.jpg"/>
+					
+					<input type="hidden"
+							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
+					<input type="hidden"
+							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
+							name="descripcionImagenes"/>
+				</div>
+				
+				<div id="imgCliente_6" onclick="showLightbox(6)" class="galeria-item">
+					<img src="images/fotosGaleria/18.jpg"/>
+					Trabajo 1
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/18.jpg,images/fotosGaleria/19.jpg,images/fotosGaleria/20.jpg"/>
+					
+					<input type="hidden"
+							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
+					<input type="hidden"
+							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
+							name="descripcionImagenes"/>
+				</div>
+				
+				
+			</div>
+		</div>
+
+
+		<!-- COMIENZA CONTENIDOS COMUNES -->
+
+		<div id="pieHome">
+			<div class="pieIzq">
+				<strong style="color: #b02e34">Peope SRL</strong> Saladillo 3351
+				(1439) CABA Agentina <font color="#b02e34" size="+1"> . </font>
+				tel/fax 54 11 46 87 74 00 <font color="#b02e34" size="+1"> <strong>.</strong></font>
+				mail <a href="mailto:ventas@peope.com.ar" target="_blank">ventas@peope.com.ar</a><br />Copyright
+				2014 Espacio4arq. All rights reserved.
+			</div>
+			<div class="pieDer">
+				<a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('linkedin','','images/linkedinOn.jpg',1)"><img
+					src="images/linkedin.jpg" width="45" height="43" border="0"
+					id="linkedin" /></a><a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('facebook','','images/facebookOn.jpg',1)"><img
+					src="images/facebook.jpg" width="45" height="43" border="0"
+					id="facebook" /></a>
+			</div>
+		</div>
+
+
+	</div>
 </body>
 </html>
