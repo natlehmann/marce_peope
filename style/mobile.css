@@ -157,3 +157,16 @@
 	height: 300px;
 	overflow-y: scroll; 
 }
+
+.galeria-item {
+	height: 120px;
+	width: 120px;
+} 
+
+#scroll div {
+    width: 120px;
+}
+
+.galeria {
+	padding: 5%;
+}
