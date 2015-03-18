@@ -37,8 +37,8 @@
 	margin: 10%;
 }
 
-.menu-mobile-item {
-	background: url("../images/bot-menu-mobile.jpg");
+.menu-mobile-item,
+.submenu-mobile-item {
 	background-repeat: repeat-x;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
@@ -50,11 +50,24 @@
     text-transform: uppercase;
 }
 
+.menu-mobile-item {
+	background: url("../images/bot-menu-mobile.jpg");
+}
+
+.submenu-mobile-item {
+	background: #666;
+}
+
 .menu-mobile-item a,
 .menu-mobile-item a:link,
 .menu-mobile-item a:active,
 .menu-mobile-item a:visited,
-.menu-mobile-item a:hover {
+.menu-mobile-item a:hover,
+.submenu-mobile-item a,
+.submenu-mobile-item a:link,
+.submenu-mobile-item a:active,
+.submenu-mobile-item a:visited,
+.submenu-mobile-item a:hover {
 	text-decoration: none;
 	color: white;
 	font-family: Myriad, helvetica, verdana, arial, sans-serif;
