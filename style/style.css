@@ -379,10 +379,9 @@ textarea {
 }
 
 #formularioUbicacion {
-	background-image: url("images/13.jpg");
 	float: left;
 	margin-left: 0;
-	margin-top: 200px;
+	margin-top: 120px;
 	position: absolute;
 	z-index: 0;
 	color: #333;
@@ -507,4 +506,10 @@ html {
 	float: none;
 	clear: both;
 	line-height: 10px;
+}
+
+#google {
+    background: none repeat scroll 0 0 red;
+    height: 300px;
+    width: 400px;
 }
