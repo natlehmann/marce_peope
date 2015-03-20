@@ -9,9 +9,7 @@ $(document).ready(function() {
 		deeplink: false
 	});
 
-	if (screen && screen.width > 480 && window.innerWidth > 480) {
-		initializeScrollPane();
-	}
+	initializeScrollPane();
 	
 });
 

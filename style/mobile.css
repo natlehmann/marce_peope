@@ -18,6 +18,11 @@
     padding: 0px;
 }
 
+body {
+	height: 400px;
+	overflow: hidden;
+}
+
 #logoInt {
     background-position: 0 -114px;
     background-repeat: repeat-x;
@@ -154,21 +159,23 @@
 
 .contenido-empresa .texto {
 	padding: 5%;
-	height: 300px;
-	overflow-y: scroll; 
-}
-
-.galeria-item {
 	height: 120px;
-	width: 120px;
-} 
-
-#scroll div {
-    width: 120px;
+	overflow-y: scroll; 
 }
 
 .galeria {
 	padding: 5%;
+	width: 90%;
+}
+
+.galeria-item {
+	height: 130px;
+	width: 110px;
+	margin-right: 10px;
+} 
+
+.galeria-item-img {
+	height: 110px;
 }
 
 #header-contacto {
