@@ -2,13 +2,15 @@
 #menu,
 #submenuImg,
 #pieHome,
-#logo-desktop {
+#logo-desktop,
+#mapa-desktop {
 	display: none;
 }
 
 #menu-mobile,
 #logo-mobile,
-#header-mobile {
+#header-mobile,
+#mapa-mobile {
 	display: block;
 }
 
@@ -206,6 +208,10 @@ body {
 	float: left;
 }
 
+body#contacto {
+	height: 530px;
+}
+
 #contacto #pieHome {
 	display: block;
 	float: right;
@@ -230,7 +236,6 @@ body {
 }
 
 #google {
-    background: none repeat scroll 0 0 red;
     float: none;
     height: 200px;
     margin: 0 auto;

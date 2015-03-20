@@ -507,7 +507,11 @@ html {
 }
 
 #google {
-    background: none repeat scroll 0 0 red;
+    background: #eee;
     height: 300px;
     width: 400px;
+}
+
+#mapa-mobile {
+	display: none;
 }
