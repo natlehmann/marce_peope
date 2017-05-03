@@ -5,9 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
 	<link rel="stylesheet" type="text/css" href="style/jquery-slides.css" />
 	<link rel="stylesheet" type="text/css" href="style/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="style/jquery.jscrollpane.css" />
-	<link rel="stylesheet" type="text/css" href="style/lightbox.css" />
-	<link rel="stylesheet" type="text/css" href="style/prettyPhoto.css" />
 	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 568px)" />
 	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 792px) and (orientation : portrait)" />
 
@@ -17,18 +14,14 @@
 	<title>peope</title>
 	
 	<script src="js/jquery-1.9.1.min.js"></script>
-	<script type="text/JavaScript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/JavaScript" src="js/jquery.jscrollpane.min.js"></script>
-	<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/JavaScript" src="js/mwheelIntent.js"></script>
-	<script type="text/JavaScript" src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
 	<script src="js/master.js"></script>
-	<script src="js/galeria.js"></script>
+    <script src="js/sliderHome.js"></script>
 	
 </head>
 
 
-<body class="peope sinLogo" id="peope-web">
+<body class="peope sinLogo">
 	<div id="contenedor">
 
 		<div id="logoInt">
@@ -54,17 +47,20 @@
 						<li><a href="produccion_madera.htm">Madera</a></li>
 						<li><a href="produccion_plastico.htm">Plástico</a></li>
 						<li><a href="produccion_impresion.htm">Impresión</a></li>
-						<li><a href="produccion_corte.htm">Corte</a></li>
+						
 					</ul></li>
 				<li><a href="#" onmouseout="MM_swapImgRestore()"
 					onmouseover="MM_swapImage('productos','','images/botProductosOn.jpg',1)"><img
 						src="images/botProductos.jpg" width="109" height="84" border="0"
 						id="productos" /></a>
 					<ul>
-						<li><a href="productos_on_premise.htm">On premise</a></li>
-						<li><a href="productos_off_premise.htm">Off premise</a></li>
-						<li><a href="productos_gifts.htm">Gifts &amp; Parts</a></li>
-
+						<li><a href="productos_exhibidores.htm">Exhibidores</a></li>
+						<li><a href="productos_exhibidoresDesarmables.htm">Exhibidores Desarmables</a></li>
+						<li><a href="productos_exhibidoresInyectados.htm">Exhibidores Inyectados</a></li>
+                        
+                        <li><a href="productos_prodGondolas.htm">Exhibidores para la Góndolas</a></li>	
+						<li><a href="productos_punterasIslasCheckouts.htm">Punteras, Islas &amp; Checkouts</a></li>		
+                        <li><a href="productos_materialPOPStandard.htm">Material POP Standard</a></li>		 					
 
 					</ul></li>
 				<li><a href="#" onmouseout="MM_swapImgRestore()"
@@ -72,13 +68,11 @@
 						src="images/botServicios.jpg" width="96" height="84" border="0"
 						id="servicios" /></a>
 					<ul>
-						<li><a href="servicios_disenio.htm">Diseño y desarrollo </a></li>
-						<li><a href="servicios_fazon.htm">Fabricación prod. a
-								fazon</a></li>
-						<li><a href="servicios_armado.htm">Armado y Copackers</a></li>
-						<li><a href="servicios_logistica.htm">Logística</a></li>
-						<li><a href="servicios_pdv.htm">Inst. y Mant. en PDV</a></li>
-
+						<li><a href="servicios_disenio.htm">Diseño y Desarrollo </a></li>
+						<li><a href="servicios_prototipos.htm">Prototipos 3D</a></li>
+                        <li><a href="servicios_fazon.htm">Fabricación Productos a Fasón</a></li>
+						<li><a href="servicios_pdv.htm">Instalación y Mantenimiento en PDV</a></li>
+                        <li><a href="servicios_logistica.htm">Logística</a></li>
 					</ul></li>
 				<li><a href="contacto.htm" onmouseout="MM_swapImgRestore()"
 					onmouseover="MM_swapImage('contacto','','images/botContactoOn.jpg',1)"><img
@@ -92,126 +86,25 @@
 		<div id="header-mobile">
 			<div class="header-mobile-texto-container">
 				<div class="header-mobile-izq"></div>
-				<div class="header-mobile-centro">PRODUCCIÓN</div>
+				<div class="header-mobile-centro"> METALURGICA</div>
 				<div class="header-mobile-der"></div>
 			</div>
 			<div class="header-mobile-close">
 				<a href="produccion.htm">X</a>
 			</div>
 		</div>
-
-
-		<div class="galeria">		
-			<div id="scroll">
-
-			<div class="galeria-item">
-				<div id="imgCliente_0" onclick="showLightbox(0)" class="galeria-item-img">
-					<img src="images/fotosGaleria/01.jpg"/>
-					<input type="hidden" name="imagenes"
-							value="images/fotosGaleria/01.jpg,images/fotosGaleria/02.jpg,images/fotosGaleria/03.jpg"/>
-					
-					<input type="hidden"
-							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
-					<input type="hidden"
-							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
-							name="descripcionImagenes"/>
-				</div>
-				<div class="galeria-item-caption">Trabajo 1</div>
+		<div class="contenido-tecnologia-metalurgica">
+			<div class="imagen">
+				<img src="images/galeriaInterna/tecnologiaMetalurgica.jpg" alt="" />
 			</div>
-			
-			<div class="galeria-item">	
-				<div id="imgCliente_1" onclick="showLightbox(1)" class="galeria-item-img">
-					<img src="images/fotosGaleria/04.jpg"/>
-					<input type="hidden" name="imagenes"
-							value="images/fotosGaleria/04.jpg,images/fotosGaleria/05.jpg,images/fotosGaleria/06.jpg"/>
-					
-					<input type="hidden"
-							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
-					<input type="hidden"
-							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
-							name="descripcionImagenes"/>
-				</div>
-				<div class="galeria-item-caption">Trabajo 2</div>
-			</div>
-			
-			<div class="galeria-item">				
-				<div id="imgCliente_2" onclick="showLightbox(2)" class="galeria-item-img">
-					<img src="images/fotosGaleria/07.jpg"/>
-					<input type="hidden" name="imagenes"
-							value="images/fotosGaleria/07.jpg,images/fotosGaleria/08.jpg,images/fotosGaleria/09.jpg"/>
-					
-					<input type="hidden"
-							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
-					<input type="hidden"
-							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
-							name="descripcionImagenes"/>
-				</div>
-				<div class="galeria-item-caption">Trabajo 3</div>
-			</div>
-			
-			<div class="galeria-item">				
-				<div id="imgCliente_3" onclick="showLightbox(3)" class="galeria-item-img">
-					<img src="images/fotosGaleria/10.jpg"/>
-					<input type="hidden" name="imagenes"
-							value="images/fotosGaleria/10.jpg,images/fotosGaleria/11.jpg,images/fotosGaleria/12.jpg"/>
-					
-					<input type="hidden"
-							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
-					<input type="hidden"
-							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
-							name="descripcionImagenes"/>
-				</div>
-				<div class="galeria-item-caption">Trabajo 4</div>
-			</div>
-			
-			<div class="galeria-item">				
-				<div id="imgCliente_4" onclick="showLightbox(4)" class="galeria-item-img">
-					<img src="images/fotosGaleria/13.jpg"/>
-					<input type="hidden" name="imagenes"
-							value="images/fotosGaleria/13.jpg,images/fotosGaleria/14.jpg,images/fotosGaleria/15.jpg"/>
-					
-					<input type="hidden"
-							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
-					<input type="hidden"
-							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
-							name="descripcionImagenes"/>
-				</div>
-				<div class="galeria-item-caption">Trabajo 5</div>
-			</div>
-			
-			<div class="galeria-item">				
-				<div id="imgCliente_5" onclick="showLightbox(5)" class="galeria-item-img">
-					<img src="images/fotosGaleria/16.jpg"/>
-					<input type="hidden" name="imagenes"
-							value="images/fotosGaleria/16.jpg,images/fotosGaleria/17.jpg,images/fotosGaleria/18.jpg"/>
-					
-					<input type="hidden"
-							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
-					<input type="hidden"
-							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
-							name="descripcionImagenes"/>
-				</div>
-				<div class="galeria-item-caption">Trabajo 6</div>
-			</div>
-			
-			<div class="galeria-item">				
-				<div id="imgCliente_6" onclick="showLightbox(6)" class="galeria-item-img">
-					<img src="images/fotosGaleria/18.jpg"/>
-					<input type="hidden" name="imagenes"
-							value="images/fotosGaleria/18.jpg,images/fotosGaleria/19.jpg,images/fotosGaleria/20.jpg"/>
-					
-					<input type="hidden"
-							value="Titulo 1,Titulo 2,Titulo 3" name="titulosImagenes"/>
-					<input type="hidden"
-							value="Descripción trabajo 1,Descripción trabajo 2,Descripción trabajo 3"
-							name="descripcionImagenes"/>
-				</div>
-				<div class="galeria-item-caption">Trabajo 7</div>
-			</div>
-				
-				
+			<div class="texto">
+			  <div class="tituloInterno">
+			    <p style="color:#FFFFFF;">TECNOLOGIA / METALURGICA</p></div>
+              Caño estructural /
+	Alambre / Chapa / Cortadoras y Guillotinas / Balancines / Soldadoras MIG / Soldadoras de punto / Plegadoras y cilindradora / Corte por plasma
 			</div>
 		</div>
+
 
 
 		<!-- COMIENZA CONTENIDOS COMUNES -->

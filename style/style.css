@@ -42,9 +42,90 @@
 	font-style: normal;
 }
 
+
+/*font especial*/
+@font-face {
+    font-family: 'museosans300'; /*nombre*/
+    src: url('../fonts/museosans300.eot');
+    src: url('../fonts/museosans300.eot?#iefix') format('embedded-opentype'), /*para qeu funcione el ie*/
+         url('../fonts/museosans300.woff') format('woff'),
+         url('../fonts/museosans300.ttf') format('truetype'),
+         url('../fonts/museosans300.svg#museosans300') format('svg');
+	 src: url('../fonts/MuseoSans-300.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museosans300italic'; /*nombre*/
+    src: url('../fonts/museosans300italic.eot');
+    src: url('../fonts/museosans300italic.eot?#iefix') format('embedded-opentype'), /*para qeu funcione el ie*/
+         url('../fonts/museosans300italic.woff') format('woff'),
+         url('../fonts/museosans300italic.ttf') format('truetype'),
+         url('../fonts/museosans300italic.svg#museosans300italic') format('svg');
+	 src: url('../fonts/MuseoSans-300Italic.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museosans500'; /*nombre*/
+    src: url('../fonts/museosans_500.eot');
+    src: url('../fonts/museosans_500.eot?#iefix') format('embedded-opentype'), /*para qeu funcione el ie*/
+         url('../fonts/museosans_500.woff') format('woff'),
+         url('../fonts/museosans_500.ttf') format('truetype'),
+         url('../fonts/museosans_500.svg#museosans500') format('svg');
+	 src: url('../fonts/MuseoSans_500.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museosans500italic'; /*nombre*/
+    src: url('../fonts/museosans_500_italic.eot');
+    src: url('../fonts/museosans_500_italic.eot?#iefix') format('embedded-opentype'), /*para qeu funcione el ie*/
+         url('../fonts/museosans_500_italic.woff') format('woff'),
+         url('../fonts/museosans_500_italic.ttf') format('truetype'),
+         url('../fonts/museosans_500_italic.svg#museosans500italic') format('svg');
+	 src: url('../fonts/MuseoSans_500_Italic.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museosans700'; /*nombre*/
+    src: url('../fonts/museosans_700.eot');
+    src: url('../fonts/museosans_700.eot?#iefix') format('embedded-opentype'), /*para qeu funcione el ie*/
+         url('../fonts/museosans_700.woff') format('woff'),
+         url('../fonts/museosans_700.ttf') format('truetype'),
+         url('../fonts/museosans_700.svg#museosans700') format('svg');
+	 src: url('../fonts/MuseoSans_700.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museosans700italic'; /*nombre*/
+    src: url('../fonts/museosans700italic.eot');
+    src: url('../fonts/museosans700italic.eot?#iefix') format('embedded-opentype'), /*para qeu funcione el ie*/
+         url('../fonts/museosans700italic.woff') format('woff'),
+         url('../fonts/museosans700italic.ttf') format('truetype'),
+         url('../fonts/museosans700italic.svg#museosans700italic') format('svg');
+	 src: url('../fonts/MuseoSans-700Italic.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 /*--------------------------------------estilos---------------------*/
+
+
+
 body {
 	color: #4D4B4C;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #contenedorIndex {
@@ -60,6 +141,7 @@ body {
 		     position: absolute;*/
 	margin: 0 auto;
 	margin-top: 0%;
+	font-size: small;
 }
 
 #logo {
@@ -96,7 +178,7 @@ body {
 }
 
 #button li a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 10px;
 	padding: 12px;
 	text-decoration: none;
@@ -104,7 +186,7 @@ body {
 }
 
 #button li a:hover {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 10px;
 	padding: 12px;
 	text-decoration: none;
@@ -112,7 +194,7 @@ body {
 }
 
 #submenuImg {
-	text-align: left;
+	text-align: right;
 	position: relative;
 	z-index: 3;
 	padding: 0px;
@@ -120,7 +202,7 @@ body {
 	margin: 0 auto;
 	float: none;
 	clear: both;
-	margin-top: 30px;
+	margin-top: 30px; 
 }
 
 #submenuImg li {
@@ -133,7 +215,7 @@ body {
 
 /*---------------------------------------pie---------------------------------*/
 #pie {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 11px;
 	position: relative;
 	bottom: 0 !important;
@@ -147,7 +229,7 @@ body {
 }
 
 #pie li a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 11px;
 	text-decoration: none;
 	color: #4D4B4C;
@@ -159,6 +241,7 @@ body {
 
 .pieIzq {
 	float: left;
+	padding-left: 59px;
 }
 
 .pieIzq img {
@@ -171,11 +254,11 @@ body {
 
 .pieDer {
 	float: right;
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 }
 
 .resaltado {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 	color: #FFF;
 }
 
@@ -233,11 +316,11 @@ body {
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 	color: #4D4B4C;
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 }
 /* eliminamos los bordes del primer y el último */
 .mi-menu li:first-child a { /*border-left: none; */
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 	*/
 }
 
@@ -248,7 +331,7 @@ body {
 /* efecto hover cambia el color */
 .mi-menu li:hover>a {
 	color: #b02e34;
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 }
 
 /* los submenús */
@@ -299,7 +382,7 @@ body {
 	margin: 0;
 	/* el ancho dependerá de los textos a utilizar */
 	padding: 5px 20px;
-	width: 160px;
+	width: 213px;
 }
 /* el último n otiene un borde */
 .mi-menu ul li:last-child a {
@@ -317,7 +400,7 @@ label {
 	margin: 0 auto;
 	width: 510px;
 	color: #666666;
-	font-family: Arial;
+	font-family: museosans300, Arial;
 }
 
 form {
@@ -333,7 +416,7 @@ input,textarea {
 	margin-top: 5px;
 	padding: 5px;
 	width: 350px;
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 }
 
 textarea {
@@ -369,7 +452,7 @@ textarea {
 
 #formularioUbicacion {
 	float: left;
-	margin-left: 0;
+	margin-left: 44px;
 	margin-top: 120px;
 	position: absolute;
 	z-index: 0;
@@ -388,7 +471,7 @@ textarea {
 }
 
 #pieHome {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 11px;
 	margin-top: 60px;
 	position: relative;
@@ -407,7 +490,7 @@ textarea {
 }
 
 #pieHome li a {
-	font-family: Myriad, helvetica, verdana, arial, sans-serif;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 11px;
 	text-decoration: none;
 	color: #4D4B4C;
@@ -442,6 +525,8 @@ html {
 
 .slidesjs-control {
 	z-index: 0;
+
+
 }
 
 .submenuImg-item {
@@ -451,7 +536,9 @@ html {
 
 .galeria {
 	width: 100%;
-	height: 300px;
+	height: 514px;
+	margin-left:59px;
+	margin-top: 11px;
 }
 
 #peope-web .jspDrag {
@@ -500,7 +587,7 @@ html {
 
 .spacer {
 	width: 100%;
-	height: 10px;
+	height: 114px;
 	float: none;
 	clear: both;
 	line-height: 10px;
@@ -510,8 +597,79 @@ html {
     background: #eee;
     height: 300px;
     width: 400px;
+	margin-right: 16px;
 }
 
 #mapa-mobile {
 	display: none;
+}
+
+/*marce agregado*/
+
+.imagen {
+	text-align:right;
+	margin-right: 15px;
+}
+
+.texto{
+	text-align: left;
+	padding-left: 59px;
+	font-family: museosans300, Myriad, helvetica, verdana, arial, sans-serif;
+	margin-right: 8px;
+}
+
+
+#contenidoHome {
+	width: 892px;
+	text-align: left;
+	padding-left: 59px;
+	margin-top: 0px;
+}
+
+#header-contacto {
+	margin-left: 59px;
+}
+
+.mensaje-mail {
+padding-left: 59px;
+padding-top: 200px;
+padding-bottom: 200px;
+	
+}
+
+#submenuImg img {
+
+	margin: -2px;
+
+}
+
+.tituloInterno {
+padding-left: 15px;
+padding-top: 10px;
+padding-bottom:0px;
+margin-right: 10px;
+margin-bottom: 10px;
+font-size:18px;
+background-image:url(../images/fondoTopTitulo1.jpg);
+}
+
+.tituloInterno1 {
+padding-left: 15px;
+padding-top: 10px;
+padding-bottom:2px;
+margin-right: 10px;
+
+font-size:18px;
+background-image:url(../images/fondoTopTitulo.jpg);
+}
+
+.tituloInterno2 {
+padding-left: 15px;
+padding-top: 10px;
+margin-left: 60px;
+margin-right: 75px;
+margin-top: -150px;
+margin-bottom:100px;
+font-size:18px;
+background-image:url(../images/fondoTopTitulo1.jpg);
 }

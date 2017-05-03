@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es-es">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/jquery-slides.css" />
+	<link rel="stylesheet" type="text/css" href="style/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="style/jquery.jscrollpane.css" />
+	<link rel="stylesheet" type="text/css" href="style/lightbox.css" />
+	<link rel="stylesheet" type="text/css" href="style/prettyPhoto.css" />
+	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 568px)" />
+	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 792px) and (orientation : portrait)" />
+
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<title>peope</title>
+	
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/JavaScript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/JavaScript" src="js/jquery.jscrollpane.min.js"></script>
+	<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/JavaScript" src="js/mwheelIntent.js"></script>
+	<script type="text/JavaScript" src="js/modernizr.custom.js"></script>
+	<script src="js/master.js"></script>
+	<script src="js/galeria.js"></script>
+	
+</head>
+
+
+<body class="peope sinLogo" id="peope-web">
+	<div id="contenedor">
+
+		<div id="logoInt">
+			<a href="index.htm">
+				<img id="logo-desktop" src="images/logo.jpg" alt="" width="301" height="135" />
+				<img id="logo-mobile" src="images/logoSinLinea.jpg" alt="" width="301" height="135" />
+			</a>
+		</div>
+
+		<div id="menu">
+			<ul class="mi-menu">
+				<li><a href="empresa.htm" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('empresa','','images/botEmpresaOn.jpg',1)"><img
+						src="images/botEmpresa.jpg" width="137" height="84" border="0"
+						id="empresa" /></a></li>
+				<li><a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('produccion','','images/botProduccionOn.jpg',1)"><img
+						src="images/botProduccion.jpg" width="115" height="84" border="0"
+						id="produccion" /></a>
+					<ul>
+						<li><a href="produccion_metalurgica.htm">Metalúrgica</a></li>
+						<li><a href="produccion_pintura.htm">Pintura</a></li>
+						<li><a href="produccion_madera.htm">Madera</a></li>
+						<li><a href="produccion_plastico.htm">Plástico</a></li>
+						<li><a href="produccion_impresion.htm">Impresión</a></li>
+
+					</ul></li>
+				<li><a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('productos','','images/botProductosOn.jpg',1)"><img
+						src="images/botProductos.jpg" width="109" height="84" border="0"
+						id="productos" /></a>
+					<ul>
+						<li><a href="productos_exhibidores.htm">Exhibidores</a></li>
+						<li><a href="productos_exhibidoresDesarmables.htm">Exhibidores Desarmables</a></li>
+						<li><a href="productos_exhibidoresInyectados.htm">Exhibidores Inyectados</a></li>
+                        
+                        <li><a href="productos_prodGondolas.htm">Exhibidores para la Góndolas</a></li>	
+						<li><a href="productos_punterasIslasCheckouts.htm">Punteras, Islas &amp; Checkouts</a></li>		
+                        <li><a href="productos_materialPOPStandard.htm">Material POP Standard</a></li>		 					
+
+					</ul></li>
+				<li><a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('servicios','','images/botServiciosOn.jpg',0)"><img
+						src="images/botServicios.jpg" width="96" height="84" border="0"
+						id="servicios" /></a>
+					<ul>
+						<li><a href="servicios_disenio.htm">Diseño y Desarrollo </a></li>
+						<li><a href="servicios_prototipos.htm">Prototipos 3D</a></li>
+                        <li><a href="servicios_fazon.htm">Fabricación Productos a Fasón</a></li>
+						<li><a href="servicios_pdv.htm">Instalación y Mantenimiento en PDV</a></li>
+                        <li><a href="servicios_logistica.htm">Logística</a></li>
+					</ul></li>
+				<li><a href="contacto.htm" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('contacto','','images/botContactoOn.jpg',1)"><img
+						src="images/botContacto.jpg" width="150" height="84" border="0"
+						id="contacto" /></a></li>
+			</ul>
+		</div>
+		
+		<!-- FIN CONTENIDOS COMUNES -->
+		
+		<div id="header-mobile">
+			<div class="header-mobile-texto-container">
+				<div class="header-mobile-izq"></div>
+				<div class="header-mobile-centro">EXH. INYECTADOS</div>
+				<div class="header-mobile-der"></div>
+			</div>
+			<div class="header-mobile-close">
+				<a href="productos.htm">X</a>
+			</div>
+		</div>
+
+
+		<div class="galeria">		
+			<div id="scroll">
+
+			<div class="galeria-item">
+				<div id="imgCliente_0" onclick="showLightbox(0)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodExhibidoresInyectados01_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodExhibidoresInyectados01b.jpg,images/fotosGaleria/prodExhibidoresInyectados01a.jpg,images/fotosGaleria/prodExhibidoresInyectados05b.jpg,images/fotosGaleria/prodExhibidoresInyectados05a.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+				<!--<div class="galeria-item-caption">Oreo caramelera</div>-->
+			</div>
+			
+
+			
+			<div class="galeria-item">				
+				<div id="imgCliente_2" onclick="showLightbox(2)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodExhibidoresInyectados03_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodExhibidoresInyectados03.jpg,images/fotosGaleria/prodExhibidoresInyectados02b.jpg,images/fotosGaleria/prodExhibidoresInyectados02a.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+				<!--<div class="galeria-item-caption">Hulkbandejas Beldent</div>-->
+			</div>
+			
+			<div class="galeria-item">				
+				<div id="imgCliente_3" onclick="showLightbox(3)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodExhibidoresInyectados04_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodExhibidoresInyectados04.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+				<!--<div class="galeria-item-caption">Cenefas Coca Cola</div>-->
+			</div>
+			
+
+			
+			<div class="galeria-item">				
+				<div id="imgCliente_5" onclick="showLightbox(5)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodExhibidoresInyectados06_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodExhibidoresInyectados06.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+				<!--<div class="galeria-item-caption">Tolva Royal</div>-->
+			</div>
+			
+			<div class="galeria-item">	
+				<div id="imgCliente_1" onclick="showLightbox(1)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodPOP02_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodPOP02.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+
+			</div>
+				
+			<div class="galeria-item">				
+				<div id="imgCliente_4" onclick="showLightbox(4)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodExhibidoresInyectados07_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodExhibidoresInyectados07.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+
+			</div>
+            
+            <div class="galeria-item">
+				<div id="imgCliente_14" onclick="showLightbox(14)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodExhibidoresInyectados09_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodExhibidoresInyectados09.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+				<!--<div class="galeria-item-caption">Oreo caramelera</div>-->
+			</div>
+            
+            <div class="galeria-item">
+				<div id="imgCliente_11" onclick="showLightbox(11)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodPOP06_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodPOP06.jpg,images/fotosGaleria/prodPOP06b.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+				<!--<div class="galeria-item-caption">Oreo caramelera</div>-->
+			</div>
+            
+            <div class="galeria-item">
+				<div id="imgCliente_12" onclick="showLightbox(12)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodPOP03_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodPOP03.jpg,images/fotosGaleria/prodPOP03a.jpg,images/fotosGaleria/prodPOP03b.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+				<!--<div class="galeria-item-caption">Oreo caramelera</div>-->
+			</div>
+            
+            <div class="galeria-item">
+				<div id="imgCliente_13" onclick="showLightbox(13)" class="galeria-item-img">
+					<img src="images/fotosGaleria/prodExhibidoresInyectados08_icono.jpg"/>
+					<input type="hidden" name="imagenes"
+							value="images/fotosGaleria/prodExhibidoresInyectados08.jpg"/>
+					
+					<input type="hidden"
+							value="Exhibidores Inyectados" name="titulosImagenes"/>
+					<input type="hidden"
+							value=""
+							name="descripcionImagenes"/>
+				</div>
+				<!--<div class="galeria-item-caption">Oreo caramelera</div>-->
+			</div>
+			</div>
+		</div>
+<div class="tituloInterno2">
+			    <p style="color: #fff">PRODUCTOS / EXHIBIDORES INYECTADOS</p></div> 
+
+		<!-- COMIENZA CONTENIDOS COMUNES -->
+
+		<div id="pieHome">
+			<div class="pieIzq">
+				<strong style="color: #b02e34">Peope SRL</strong> Saladillo 3351
+				(1439) CABA Agentina <font color="#b02e34" size="+1"> . </font>
+				tel/fax 54 11 46 87 74 00 <font color="#b02e34" size="+1"> <strong>.</strong></font>
+				mail <a href="mailto:ventas@peope.com.ar" target="_blank">ventas@peope.com.ar</a><br />Copyright
+				2014 Espacio4arq. All rights reserved.
+			</div>
+			<div class="pieDer">
+				<a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('linkedin','','images/linkedinOn.jpg',1)"><img
+					src="images/linkedin.jpg" width="45" height="43" border="0"
+					id="linkedin" /></a><a href="#" onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('facebook','','images/facebookOn.jpg',1)"><img
+					src="images/facebook.jpg" width="45" height="43" border="0"
+					id="facebook" /></a>
+			</div>
+		</div>
+
+
+	</div>
+</body>
+</html>

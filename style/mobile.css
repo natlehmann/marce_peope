@@ -16,7 +16,7 @@
 
 .peope {
     background: none;
-    margin: 0px;
+   margin: 0px;
     padding: 0px;
 }
 
@@ -80,8 +80,8 @@ body {
 	font-family: Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 13px;
 	font-style: bold;
-	padding-left: 35%;
-    padding-right: 35%;
+	padding-left: 15%;
+    padding-right: 15%;
     padding-top: 7px;
     padding-bottom: 5px;
 }
@@ -126,7 +126,7 @@ body {
 }
 
 .header-mobile-der {
-	background-image: url(../images/botMobileDerecha.jpg);
+	background-image: url(../images/botMobileDerecha1.jpg);
 	background-repeat: no-repeat;
 	height: 70px;
 	width: 27px;
@@ -242,3 +242,9 @@ body#contacto {
     width: 90%;
     margin-bottom: 20px;
 }
+/*
+.tituloInterno2  {
+	display:none;
+	
+}
+

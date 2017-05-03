@@ -54,11 +54,11 @@ $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 						src="images/botProduccion.jpg" width="115" height="84" border="0"
 						id="produccion" /></a>
 					<ul>
-						<li><a href="produccion_metalurgica.htm">Metalúrgica</a></li>
+						<li><a href="produccion_metalurgica.htm">Metalï¿½rgica</a></li>
 						<li><a href="produccion_pintura.htm">Pintura</a></li>
 						<li><a href="produccion_madera.htm">Madera</a></li>
-						<li><a href="produccion_plastico.htm">Plástico</a></li>
-						<li><a href="produccion_impresion.htm">Impresión</a></li>
+						<li><a href="produccion_plastico.htm">Plï¿½stico</a></li>
+						<li><a href="produccion_impresion.htm">Impresiï¿½n</a></li>
 						<li><a href="produccion_corte.htm">Corte</a></li>
 					</ul></li>
 				<li><a href="#" onmouseout="MM_swapImgRestore()"
@@ -77,11 +77,11 @@ $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 						src="images/botServicios.jpg" width="96" height="84" border="0"
 						id="servicios" /></a>
 					<ul>
-						<li><a href="servicios_disenio.htm">Diseño y desarrollo </a></li>
-						<li><a href="servicios_fazon.htm">Fabricación prod. a
+						<li><a href="servicios_disenio.htm">Diseï¿½o y desarrollo </a></li>
+						<li><a href="servicios_fazon.htm">Fabricaciï¿½n prod. a
 								fazon</a></li>
 						<li><a href="servicios_armado.htm">Armado y Copackers</a></li>
-						<li><a href="servicios_logistica.htm">Logística</a></li>
+						<li><a href="servicios_logistica.htm">Logï¿½stica</a></li>
 						<li><a href="servicios_pdv.htm">Inst. y Mant. en PDV</a></li>
 
 					</ul></li>
@@ -92,7 +92,7 @@ $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 			</ul>
 		</div>
 
-		<div class="mensaje-mail">
+		<div class="mensaje-mail" style="padding-bottom: 291px; padding-top: 200px; padding-left: 59px;">
 
 <?php
 	if (mail($para, $titulo, $msjCorreo, $header)) {
