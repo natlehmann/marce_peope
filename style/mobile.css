@@ -22,7 +22,7 @@
 
 body {
 	height: 400px;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 #logoInt {
@@ -80,8 +80,8 @@ body {
 	font-family: Myriad, helvetica, verdana, arial, sans-serif;
 	font-size: 13px;
 	font-style: bold;
-	padding-left: 15%;
-    padding-right: 15%;
+	padding-left: 5%;
+    padding-right: 5%;
     padding-top: 7px;
     padding-bottom: 5px;
 }
@@ -120,7 +120,7 @@ body {
 	text-align: left;
 	color: white;
 	font-family: Myriad,helvetica,verdana,arial,sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 	padding-top: 13px;
 	padding-left: 13px;
 }
@@ -166,8 +166,9 @@ body {
 }
 
 .galeria {
-	padding: 5%;
+	padding: 0px;
 	width: 90%;
+	margin: 0px auto;
 }
 
 .galeria-item {
@@ -242,9 +243,21 @@ body#contacto {
     width: 90%;
     margin-bottom: 20px;
 }
-/*
+
 .tituloInterno2  {
-	display:none;
-	
+	display:none;	
 }
 
+.tituloInterno {
+    font-size: 16px;
+}
+
+.contenido-tecnologia-metalurgica .texto,
+.contenido-tecnologia-pintura .texto,
+.contenido-tecnologia-madera .texto,
+.contenido-tecnologia-Plastico .texto,
+.contenido-tecnologia-impresion .texto {
+	margin: 0px auto;
+	padding: 0px;
+	width: 80%;
+}
